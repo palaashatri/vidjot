@@ -19,11 +19,14 @@ const users = require('./routes/users');
 //PASSPORT CONFIG : 
 require('./config/passport')(passport);
 
+//db config
+const db = require('./config/database');
+
 //MAP GLOBAL PROMISE - GET RID OF WARNNG : 
 mongoose.Promise = global.Promise;
 
 //CONNECT TO MONGOOSE : 
-mongoose.connect('mongodb://localhost/vidjot-dev',{
+mongoose.connect(db.mongoURI,{
     // useMongoClient : true,
     useNewUrlParser: true
 })
@@ -93,7 +96,7 @@ app.use('/users',users);
 
 
 //--------------LISTENING ON PORT---------//
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, ()=>{
     console.log(`Server started on port ${port}`);
 });
