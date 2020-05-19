@@ -5,7 +5,7 @@ It uses proper authentication, so you don't have to worry about your ideas being
 
 **Built on  :  Bootstrap 4.0 and Node.js**
 
-Can now be found deployed on Heroku at : <https://mysterious-tundra-45988.herokuapp.com>
+Can now be found deployed on Heroku at : <https://vidjot-app-demo.herokuapp.com/>
 
 ### LocalHost deployment instructions : 
 * Download or git clone the repository
