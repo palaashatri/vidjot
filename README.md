@@ -10,12 +10,13 @@ It uses proper authentication, so you don't have to worry about your ideas being
 * jQuery : https://jquery.com/
 * Handlebars template engine : https://handlebarsjs.com/
 * Passport.js : http://www.passportjs.org/
+* MongoDB : https://www.mongodb.com/
 
 Can now be found deployed on Heroku at : <https://vidjot-app-demo.herokuapp.com/>
 
 ### LocalHost deployment instructions : 
-* Download or git clone the repository
+* Download or git clone the repository : `git clone https://github.com/netizener/VidJot.git`
 * Make sure you have installed Nodejs, npm and MongoDB on your machine
-* Install dependencies using 'npm install'
-* Run application using 'node app.js' or using 'nodemon' (if you have it installed) in the root directory!
+* Install dependencies using `npm install`
+* Run application using `node app.js` or using `nodemon` (if you have it installed) in the root directory!
 * Add users, add ideas, test and bend the project as much as you can, and report any issues you face.
