@@ -3,7 +3,13 @@
 Vidjot is an an application that allows you to add ideas to help create your videos, by inputting ideas, kind of like a Notes app, but online.
 It uses proper authentication, so you don't have to worry about your ideas being stolen by someone else.
 
-**Built on  :  Bootstrap 4.0 and Node.js**
+### Built on : 
+* Node.js : https://nodejs.org/en/
+* Express.js : http://expressjs.com/
+* Bootstrap 4 : https://getbootstrap.com/
+* jQuery : https://jquery.com/
+* Handlebars template engine : https://handlebarsjs.com/
+* Passport.js : http://www.passportjs.org/
 
 Can now be found deployed on Heroku at : <https://vidjot-app-demo.herokuapp.com/>
 
