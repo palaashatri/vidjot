@@ -1,3 +1,5 @@
+> Marking this as deprecated and archived. Heroku, in all their almighty brilliance deleted my account, also removing all my API keys and everything. They can literally, buzz off.
+
 # VidJot
 
 Vidjot is an an application that allows you to add ideas to help create your videos, by inputting ideas, kind of like a Notes app, but online.
